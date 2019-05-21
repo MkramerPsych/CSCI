@@ -1,0 +1,11 @@
+README
+
+I affirm that I have adhered to the honor code on this assignment
+Max Kramer
+
+2) The worst case scenario is a grid of n rows and m columns, and the solver has a T of a constant C.
+Therefore the Big-O complexity of the solver algorithm is O(m*n).
+
+3) The stack appears to solve mazes at a faster rate than the queue. The stack solves mazes by exhausting each cardinal
+direction from the start while the queue appears to test in an outward expanding pattern from the start square. Mazes where
+the exit is directly to a cardinal direction from the start are solved much faster with the stack than the queue.

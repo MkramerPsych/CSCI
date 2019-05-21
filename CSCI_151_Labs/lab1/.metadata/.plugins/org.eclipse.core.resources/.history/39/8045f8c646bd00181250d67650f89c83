@@ -1,0 +1,29 @@
+public class Pyramid {
+
+    public static void main(String[] args) {
+    
+    	for (int i = 0; i < args.length; i++) { // Count length of args entered by user
+    		System.out.println("Argument " + i + " is " + args[i]);
+    	}
+
+    	if (args.length > 1) { // Error message if more than one digit entered
+    		System.out.println("Only one number allowed!");
+    		System.exit(1);
+    	}
+
+    	int height = Integer.parseInt(args[0]);
+
+    	for (int row = 0; row < height; row++) { // row of pyramid
+
+    		for (int space = height - row; space > 0; space--) { // control spaces printed
+    			System.out.print(" ");
+    		}
+
+    		for (int star = 0; star < (row * 2) + 1; star++) { // control stars printed
+    			System.out.print("*");
+    		}
+    		System.out.println();
+    	}
+
+    }
+}

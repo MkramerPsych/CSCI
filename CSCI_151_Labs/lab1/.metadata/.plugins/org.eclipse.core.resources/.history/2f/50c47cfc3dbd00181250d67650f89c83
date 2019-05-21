@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+/* 1. Read in input from file through System.in
+ * 2. Process 1st digit from each file
+ * 
+ * I have adhered to the Honor Code in this assignment.
+ * Author: Max Kramer
+ */
+
+public class Benford {
+	public static void main(String args[]) {
+		System.out.println("Welcome to the Benford analysis program!");
+		Scanner input = new Scanner(System.in); // I'm reading what the user typed
+		int[] counterArray = new int[10]; //creates an array of counters
+		
+		while(input.hasNext()) { //while there is another word in input.
+			String testWord = input.next(); //Read the next character from input
+			char testChar = testWord.charAt(0); //test first character of System.in
+		
+			if (Character.isDigit(testChar) == true) { //Test if first character is a digit
+				String digitRet = testWord.substring(0, 1); //extract first digit as string.
+				int finalDigit = Integer.parseInt(digitRet); //parse string to int.
+				counterArray[finalDigit]++; //increment the appropriate counter.
+			}
+		
+			
+		
+		
+		}
+	}
+}

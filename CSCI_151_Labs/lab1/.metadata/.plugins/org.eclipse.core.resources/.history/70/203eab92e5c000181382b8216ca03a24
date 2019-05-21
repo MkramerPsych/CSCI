@@ -1,0 +1,18 @@
+import java.util.*; //Import java utility package
+
+public class MyArrayList<E> extends AbstractList<E> { //declare generic class MyArrayList
+	int size; //instance variables
+	E[] data;
+	
+	MyArrayList(int startLength){
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}

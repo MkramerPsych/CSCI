@@ -1,0 +1,9 @@
+README
+
+Max Kramer
+I originally programmed the BFS to run from actor to center rather than center to actor
+I attempted to reverse the order but could not figure out how to do it. As such, all of
+my methods use a BFS that goes from actor to center, though all the bacon distances and
+paths are the same as the examples, just in reverse.
+
+I affirm that I adhered to the honor code on this assignment

@@ -1,0 +1,30 @@
+import java.util.*; //Import java utility package
+
+public class MyArrayList<E> extends AbstractList<E> { //declare generic class MyArrayList
+	
+	//INSTANCE VARIABLES
+	int size; //initialize variable size
+	E[] data; //initialize array data
+	
+	//CONSTRUCTORS
+	MyArrayList(int startLength){ //constructor with initial capacity
+		size = startLength;
+		@SuppressWarnings("unchecked") E[] data = (E[]) new Object[5];
+	}
+	
+	MyArrayList(){ //empty constructor using default capacity
+		MyArrayList(this(5)); //set initial capacity default to 5
+	}
+	
+	//METHODS
+	private void resize() { //doubles length of the array
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+}

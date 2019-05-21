@@ -1,0 +1,24 @@
+README
+
+Max Kramer
+I affirm that I have adhered to the honor code on this assignment
+I used a scanner rather than a filereader and as such was much more likely to run into a null on any file except seuss.txt
+The files will run with no NullPointer but they will terminate before M characters are printed most of the time.
+
+java TextGenerator 10 1000 drseuss.txt
+
+GREEN EGGS AND HAM That Sam-I-am! Do you like them, Sam-I-am. Would you, on a boat? I could not, could not, in the dark! Not in a tree! Not in a tree! 
+I would not, could not, in a tree. I do not like them anywhere. I do not like them, Sam-I-am. I do not like them anywhere. I do not like them here and there.
+Say! I like green eggs and ham. Would you, in the train? I would not eat them on a house? Would you like them. You may like them on a house? Would you like them with a mouse.
+THEN He loaded some bags And some milk on a dish! And look! With my tail I can hold up these books! And the Grinch. He got stuck only once, for a moment or two. 
+Then he took some red thread And he tied a big horn on top of his store. He lurks in his Lerkim, cold under the smoke-smuggered stars. Now all that was even too small For the 
+other Whos' house Leaving crumbs Much too small. But, Whatever that meant, well, I just couldn't guess. That was long, long ago. But each day since that day? Should we tell her 
+The things the
+
+GREEN EGGS AND HAM That Sam-I-am! That Sam-I-am! That Sam-I-am! That Sam-I-am! That Sam-I-am! I do not like them anywhere. I would not eat green eggs and ham.
+I do not like them. So you say. Try them! Try them! And you may. Try them and you may, I say. Sam! If you will let me be, I will try them. You will see. Say!
+I like green eggs and ham! I do! I like them, Sam-I-am. Would you like to shake hands With Thing One and Thing Two. We shook their two hands. 
+But our fish said, 'No! No! Make that cat go away! Tell that Cat in the Hat, 'So so so ... I will show you another Good trick that I know!' And then he ran out. 
+And, then, fast as a fox, The Cat in the Hat. 'A lot of good tricks. I will show them to you. Your mother Will not mind at all if I do.'
+Then Sally and I Saw them run down the hall. We saw those two Things had to stop. Then I said to the cat, 'Now you do as I say. You pack up those Things And you take them away!'
+'Oh dear!' said the cat. 'I know some new tricks,' Said the Cat in the Hat. 'I a

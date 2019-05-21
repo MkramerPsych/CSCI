@@ -1,0 +1,24 @@
+Wyoming
+Montana L 0
+Oregon R 0
+Arkansas L 1
+Minnesota R 1
+Utah L 2
+Wisconsin R 2
+Mississippi L 3
+Washington R 3
+Kentucky L 4
+Nevada L 5
+Tennessee R 6
+Iowa R 7
+NorthDakota L 8
+SouthCarolina R 8
+Florida L 9
+Indiana R 9
+Hawaii L 12
+Pennsylvania R 12
+SouthDakota L 17
+Nebraska L 18
+Connecticut R 18
+Ohio L 19
+Massachusetts R 19  

@@ -1,0 +1,179 @@
+README
+Max Kramer
+I am using one of my late lab extensions on this assignment.
+I affirm that I have adhered to the honor code on this assignment.
+
+
+1.
+makramer@hopper:~/cs151/lab5$ java ListTimer small-lex.txt emma.txt 5000 5
+Lexicon: small-lex.txt  Document: emma.txt  Class: DoublyLinkedList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000         333      91.0%
+   10000         667      91.3%
+   15000         988      90.8%
+   20000        1343      90.7%
+   25000        1682      90.7%
+Lexicon: small-lex.txt  Document: emma.txt  Class: MRUList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000         143      91.0%
+   10000         222      91.3%
+   15000         303      90.8%
+   20000         315      90.7%
+   25000         486      90.7%
+
+makramer@hopper:~/cs151/lab5$ java ListTimer small-lex.txt moby.txt 5000 5
+Lexicon: small-lex.txt  Document: moby.txt  Class: DoublyLinkedList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000         380      84.5%
+   10000         699      85.0%
+   15000        1054      84.5%
+   20000        1523      84.6%
+   25000        1824      84.4%
+Lexicon: small-lex.txt  Document: moby.txt  Class: MRUList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000         164      84.5%
+   10000         306      85.0%
+   15000         443      84.5%
+   20000         685      84.6%
+   25000         737      84.4%
+
+With no reduction in percent of words found, the MRU list processes an equal number of 
+words in a fraction of the time the doubly linked list takes.
+
+The worst case of the contains method is not represented because the running time of the
+contains method is O(n) in both cases.
+
+2.
+
+For the doublylinkedlist, the doubling property appears to hold. For the MRU list, there is
+only a marginal increase in worst case running time. This may be due to the rapid additions
+to the front that distinguish MRU lists from standard doubly linked lists.
+
+
+
+
+
+
+
+3.
+
+makramer@hopper:~/cs151/lab5$ java ListTimer medium-lex.txt emma.txt 5000 5
+Lexicon: medium-lex.txt  Document: emma.txt  Class: DoublyLinkedList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000        2372      95.9%
+   10000        4863      96.3%
+   15000        2468      96.5%
+   20000        9367      96.6%
+   25000       11657      96.6%
+Lexicon: medium-lex.txt  Document: emma.txt  Class: MRUList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000         958      95.9%
+   10000        1033      96.3%
+   15000        1335      96.5%
+   20000        1046      96.6%
+   25000        2016      96.6%
+
+makramer@hopper:~/cs151/lab5$ java ListTimer medium-lex.txt moby.txt 5000 5
+Lexicon: medium-lex.txt  Document: moby.txt  Class: DoublyLinkedList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000        2810      94.7%
+   10000        1498      94.6%
+   15000        8201      94.6%
+   20000       10029      94.5%
+   25000       12113      94.4%
+Lexicon: medium-lex.txt  Document: moby.txt  Class: MRUList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000         968      94.7%
+   10000        1364      94.6%
+   15000        1178      94.6%
+   20000        2570      94.5%
+   25000        2952      94.4%
+   
+---------------------------------------------------------------------------
+
+makramer@hopper:~/cs151/lab5$ java ListTimer large-lex.txt emma.txt 5000 5
+Lexicon: large-lex.txt  Document: emma.txt  Class: DoublyLinkedList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000        5882      95.9%
+   10000        4444      96.5%
+   15000       17000      96.5%
+   20000       23168      96.6%
+   25000       26820      96.6%
+Lexicon: large-lex.txt  Document: emma.txt  Class: MRUList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000        1587      95.9%
+   10000        2610      96.5%
+   15000        3408      96.5%
+   20000        2821      96.6%
+   25000        5128      96.6%
+
+makramer@hopper:~/cs151/lab5$ java ListTimer large-lex.txt moby.txt 5000 5
+Lexicon: large-lex.txt  Document: moby.txt  Class: DoublyLinkedList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000        5694      96.5%
+   10000       11487      96.1%
+   15000       16588      96.2%
+   20000       21964      96.1%
+   25000       16638      96.0%
+Lexicon: large-lex.txt  Document: moby.txt  Class: MRUList
+==========================================
+ words      elapsed    pct of
+searched   time (ms) found words
+    5000        1823      96.5%
+   10000        3051      96.1%
+   15000        1905      96.2%
+   20000        5722      96.1%
+   25000        6698      96.0%
+
+While the difference in speed between doubly linked list and MRU
+lists remain constant, there is a proportional increase in elapsed time for both structures as the
+lexicon grows, though the effect is much more pronounced on the doubly linked list.
+This may be due once again to the front loading property of the MRU list giving it an advantage 
+over the doubly linked list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

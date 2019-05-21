@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+/usr/users/quota/students/2018/mkramer/cs151/lab1/.metadata/.plugins/org.eclipse.jdt.core
+575340225.index
+3141775227.index

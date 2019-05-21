@@ -1,0 +1,10 @@
+j
+i L 0
+h R 0
+g L 1
+f R 1
+e L 2
+d R 2
+c L 3
+b R 3
+a R 4

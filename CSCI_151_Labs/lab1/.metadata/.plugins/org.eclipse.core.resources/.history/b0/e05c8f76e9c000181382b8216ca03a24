@@ -1,0 +1,47 @@
+import java.util.*; //Import java utility package
+
+/*
+ * 
+ * Author: Max Kramer
+ */
+
+public class MyArrayList<E> extends AbstractList<E> { //declare generic class MyArrayList
+	
+	//INSTANCE VARIABLES
+	int size; //create variable size
+	E[] data; //create array data
+	
+	//CONSTRUCTORS
+	@SuppressWarnings("unchecked")
+	MyArrayList(int startLength){ //constructor with initial capacity
+		size = startLength; //initialize size
+		data = (E[]) new Object[5]; //initialize data
+		
+	}
+	
+	MyArrayList(){ //empty constructor using default capacity
+		this(5); //set initial capacity default to 5
+	}
+	
+	//METHODS
+	@SuppressWarnings("unchecked")
+	private void resize() { //doubles length of the array
+		System.out.println("Old size: " + data.length); //print old array size
+		E[] newArray = (E[]) new Object[2*data.length]; //create new array of double length
+		
+		for (i = 0; i < data.length, i++) { //data.length repeats
+			newArray.add(data[i], )
+		}
+	
+	public int size() {
+		return size;
+	}
+		
+	}
+	
+}
+	
+	
+	
+	
+}

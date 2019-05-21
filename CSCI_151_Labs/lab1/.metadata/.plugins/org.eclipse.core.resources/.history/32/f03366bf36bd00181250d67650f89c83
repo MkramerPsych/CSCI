@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+/* Read system.in line by line
+ * s2 - read line from input word by word
+ * 
+ */
+
+public class Redactor {
+
+    public static void main(String[] args) {
+
+    	Scanner input = new Scanner(System.in); // I'm reading what the user typed
+    	boolean bool = false; //Boolean value for matching test
+    	if (args.length == 0) {
+    		bool = true;
+    	}
+    	
+    	while (input.hasNextLine()) { // keep looping for each guess, use 'break' to exit
+        	String line = input.nextLine(); // Read the next line of input from the user
+            Scanner s2 = new Scanner(line); // s2 will let me break 'line' apart  
+            
+            while (s2.hasNext()) {
+            	String word = s2.next(); //stores each word in var word
+            	
+            	//COMPARE WORD TO EACH STRING IN ARGS
+            	for (int i = 0; i < args.length; i++) { //for every entry in args
+            		if (!word.equals(args[i])) {
+            			//System.out.print(word + " ");
+            			bool = true;
+            		}
+            		
+            		else {
+            			//System.out.print("XXXXXXX ");
+            			bool = false;
+            			break;
+            		}
+            	}
+            		
+            	if (bool == true) {
+            		System.out.print(word + " ");
+            	}
+            	
+            	else {
+            		System.out.print("XXXXXXX ");
+            	}
+            			
+            	
+            	
+            	
+         
+            	}
+            System.out.println();
+            }
+            
+    
+    
+    
+
+    }
+}
+
