@@ -1,0 +1,2 @@
+# CSCI
+Computer Science @ Oberlin
